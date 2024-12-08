@@ -1,11 +1,9 @@
 ---
-title: 'Starting Point Tier 1 - 10/10 Tactics'
+title: 'HTB Tactics - Basic SMB exploitation'
 cover: ../images/covers/h4ckronin.png
 date: 2023-03-15T11:00:00-07:00
 lastmod: 2023-03-15T11:00:00-07:00
 ---
-
-# Starting Point Tier 1 - 10/10 Tactics
 
 ## Verkeerd geconfigureerde SMB-shares
 
