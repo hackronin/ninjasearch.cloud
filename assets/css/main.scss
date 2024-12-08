@@ -40,6 +40,21 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $font-basic;
 }
 
+@media (max-width: 768px) {
+  h1 { font-size: calc($default-font-size * pow($heading-scale, 4)); }
+  h2 { font-size: calc($default-font-size * pow($heading-scale, 3)); }
+  h3 { font-size: calc($default-font-size * pow($heading-scale, 2)); }
+  h4, h5, h6 { font-size: $default-font-size; }
+  body { font-size: 0.9rem; }
+}
+
+@media (max-width: 480px) {
+  h1, h2, h3 {
+    font-size: calc($default-font-size * pow($heading-scale, 2));
+  }
+  body { font-size: 0.8rem; }
+}
+
 a {
   color: inherit;
 }
