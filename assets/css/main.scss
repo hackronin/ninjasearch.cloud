@@ -4,7 +4,14 @@ $icon_font: {{ $params.icon_font }};
 $reimu_cursor: {{ $params.reimu_cursor }};
 $basic-families: {{ default "-apple-system" (delimit (apply (default slice $params.font.article) "printf" "'%s'" ".") ",") }};
 $code-families: {{ default "Menlo" (delimit (apply (default slice $params.font.code) "printf" "'%s'" "." ) ",") }};
-
+$default-font-size: 1rem !default;
+$default-line-height: 1.6 !default;
+$heading-scale: 1.25 !default;
+$font-families: (
+  'sans': 'Arial, sans-serif',
+  'serif': 'Georgia, serif',
+  'monospace': 'Courier New, monospace'
+) !default;
 @import "_reset";
 @import "_variables";
 @import "_animation";
