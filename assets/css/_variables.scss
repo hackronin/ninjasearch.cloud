@@ -44,7 +44,7 @@
   --highlight-aqua: #4d6d71; /* muted teal */
   --highlight-blue: #8a9eaa; /* slate blue */
   --highlight-purple: #7b6c81; /* muted plum */
-  --codeblock-text: #a8130d; /* red code text */
+  --codeblock-text: #f42f2e; /* red code text */
 
   /* Cursor Styles */
   --cursor-default: url(../images/cursor/Red-Arrow.png), auto;
@@ -108,6 +108,7 @@
     --highlight-blue: #54b6ff;
     --highlight-purple: #dcbdfb;
     --highlight-red: #a94454; /* muted red */
+    --codeblock-text: #f42f2e; /* red code text */
   }
 
   img {
