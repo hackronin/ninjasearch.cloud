@@ -33,7 +33,7 @@
   --color-h2-after-shadow: rgba(125, 110, 85, 0.3); /* soft shadow */
 
   /* Highlights */
-  --highlight-background: #2c2f36; /* dark, neutral highlight */
+  --highlight-background: #000000; /* dark, neutral highlight */
   --highlight-current-line: #383c42; /* darker parchment */
   --highlight-selection: #5b6b72; /* deep sea green */
   --highlight-comment: #848689; /* light grey-green */
@@ -44,7 +44,7 @@
   --highlight-aqua: #4d6d71; /* muted teal */
   --highlight-blue: #8a9eaa; /* slate blue */
   --highlight-purple: #7b6c81; /* muted plum */
-  --codeblock-text: #e8e5d8; /* off-white text */
+  --codeblock-text: #a8130d; /* red code text */
 
   /* Cursor Styles */
   --cursor-default: url(../images/cursor/Red-Arrow.png), auto;
@@ -95,7 +95,7 @@
 
     --highlight-nav: #2e353f;
     --highlight-scrollbar: #454d59;
-    --highlight-background: #22272e;
+    --highlight-background: #000000; /* dark, neutral highlight */
     --highlight-current-line: #393939;
     --highlight-selection: #515151;
     --highlight-foreground: #cccccc;
@@ -107,6 +107,7 @@
     --highlight-aqua: #66cccc;
     --highlight-blue: #54b6ff;
     --highlight-purple: #dcbdfb;
+    --highlight-red: #a94454; /* muted red */
   }
 
   img {
