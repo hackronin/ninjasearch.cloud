@@ -1,5 +1,4 @@
-[data-theme="dark"] {
-  &:root {
+:root {
   /* General Backgrounds */
   --color-background: #000000; /* deep charcoal black */
   --color-code-background: #4a4d52; /* dark slate gray */
@@ -60,7 +59,6 @@
   --cursor-diagonal-nw-se: url(../images/cursor/Red-NW_SE.png), nwse-resize;
   --cursor-cross: url(../images/cursor/Red-Cross.png), crosshair;
   }
-}
 
   img {
     filter: brightness(70%);
