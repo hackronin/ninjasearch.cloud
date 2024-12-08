@@ -1,0 +1,36 @@
+﻿[Arrow]
+Path=Red Arrow.cur
+
+[Wait]
+Path=Red Busy.ani
+
+[SizeAll]
+Path=Red Cross.cur
+
+[Help]
+Path=Red Help.cur
+
+[SizeWE]
+Path=Red Horizontal.cur
+
+[Hand]
+Path=Red Link.cur
+
+[SizeNWSE]
+Path=Red NE_SW.cur
+
+[SizeNESW]
+Path=Red NW_SE.cur
+
+[IBeam]
+Path=Red Text.cur
+
+[No]
+Path=Red Unavailable.cur
+
+[SizeNS]
+Path=Red Vertical.cur
+
+[AppStarting]
+Path=Red Working.ani
+

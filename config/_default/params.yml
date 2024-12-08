@@ -1,0 +1,325 @@
+# Main menu navigation
+menu:
+  - name: about
+    url: "about"
+  - name: reviews
+    url: "reviews"
+  - name: scrolls
+    url: "scrolls"
+  - name: write-ups
+    url: "write-ups"
+  - name: research
+    url: "research"
+  - name: archives
+    url: "archives"
+  - name: community
+    url: "https://discord.gg/SkcfbaE3zw"
+
+mainSections: ["post"]
+# Format style for year, month, date & time
+yearFormat: "2006"
+monthFormat: "2006-01"
+dateFormat: "2006-01-02"
+timeFormat: "2006-01-02 15:04:05"
+
+author: H4ckronin
+description: "Welcome to the Ninja Corner!..."
+subtitle: "Welcome to the Ninja Corner!..."
+
+banner: "images/cover5.gif"
+# You can also write it in the form of the following URL
+# banner: "https://example.com"
+banner_srcset:
+  enable: false
+  srcset:
+    - src: "images/banner-600w.webp"
+      media: "(max-width: 479px)"
+    - src: "images/banner-800w.webp"
+      media: "(max-width: 799px)"
+    - src: "images/banner.webp"
+      media: "(min-width: 800px)"
+
+# You can also write it in the form of the following URL
+# favicon: "https://example.com"
+avatar: "avatar.jpeg"
+
+# Open Graph
+# see https://hexo.io/docs/helpers#open-graph
+open_graph:
+  enable: true
+  options:
+    #twitter_card: <twitter:card>
+    #twitter_id: <twitter:creator>
+    #twitter_site: <twitter:site>
+    #twitter_image: <twitter:image>
+    #google_plus: <g+:profile_link>
+    #fb_admins: <fb:admin_id>
+    #fb_app_id: <fb:app_id>
+
+# Content
+excerpt_link: Read More
+
+# Analytics
+baidu_analytics: false
+google_analytics: false
+clarity: false
+
+article_copyright:
+  enable: false
+  content:
+    author: true
+    link: true
+    title: false
+    date: false
+    updated: false
+    license: true
+
+# Sidebar
+sidebar: left
+widgets:
+  - category
+  - tag
+  - tagcloud
+  - recent_posts
+
+# Widget behavior
+recent_posts_limits: 5
+
+social:
+  # email: mailto:xxx@gmail.com
+  # github: https://github.com/yourname
+  # google: https://plus.google.com/yourname
+  # twitter: https://twitter.com/yourname
+  # facebook: https://www.facebook.com/yourname
+  # instagram: https://www.instagram.com/yourname
+  # linkedin: https://www.linkedin.com/in/yourname
+  # pinterest: https://www.pinterest.com/yourname
+  # youtube: https://www.youtube.com/channel/yourname
+  # vimeo: https://vimeo.com/yourname
+  # flickr: https://www.flickr.com/photos/yourname
+  # dribbble: https://dribbble.com/yourname
+  # behance: https://www.behance.net/yourname
+  # bilibili: https://space.bilibili.com/yourname
+  # weibo: https://weibo.com/yourname
+  # zhihu: https://www.zhihu.com/people/yourname
+  # reddit: https://www.reddit.com/user/yourname
+  # tumblr: https://yourname.tumblr.com
+  # medium: https://medium.com/@yourname
+  # deviantart: https://yourname.deviantart.com
+  # stackoverflow: https://stackoverflow.com/users/yourname
+  # keybase: https://keybase.io/yourname
+  # telegram: https://t.me/yourname
+  # discord: https://discordapp.com/users/yourname
+  # steam: https://steamcommunity.com/id/yourname
+
+footer:
+  since: 2020 # 2020-current_year
+  powered: true
+  count: true
+  busuanzi: true
+
+# Valine comment system. https://valine.js.org
+# Version 1.5.1
+# Notify and verify have been deprecated
+valine:
+  enable: false # if you want to use Valine, please set this value to true
+  appId: # Leancloud application app ID
+  appKey: # Leancloud application app key
+  pageSize: 10 # Comment list page size
+  avatar: mp # Gravatar style https://valine.js.org/#/avatar
+  lang: en # i18n: zh-cn/en
+  placeholder: Just leave a comment # Valine comment input placeholder
+  guest_info: nick, mail, link # Valine comment header info
+  recordIP: true # Whether to record the IP address of commenters
+  highlight: true # Whether to highlight the code blocks
+  visitor: false # Whether to display the number of visitors
+
+# https://waline.js.org/
+waline:
+  enable: false
+  serverURL:
+  lang: en
+  locale: {} # https://waline.js.org/guide/features/i18n.html#custom-languages
+  emoji:
+    - https://unpkg.com/@waline/emojis@1.2.0/weibo
+    - https://unpkg.com/@waline/emojis@1.2.0/alus
+    - https://unpkg.com/@waline/emojis@1.2.0/bilibili
+    - https://unpkg.com/@waline/emojis@1.2.0/qq
+    - https://unpkg.com/@waline/emojis@1.2.0/tieba
+    - https://unpkg.com/@waline/emojis@1.2.0/tw-emoji
+  meta:
+    - nick
+    - mail
+    - link
+  requiredMeta:
+    - nick
+    - mail
+  wordLimit: 0
+  pageSize: 10
+  pageview: true
+
+# https://twikoo.js.org
+twikoo:
+  enable: false
+  envId: # Tencent Cloud envId; Vercel env address (https://xxx.vercel.app)
+  region:
+
+# https://github.com/gitalk/gitalk/blob/master/readme-cn.md
+gitalk:
+  enable: false
+  clientID:
+  clientSecret:
+  repo:
+  owner:
+  admin:
+  md5: false
+# https://giscus.app/zh-CN
+giscus:
+  enable: false
+  repo:
+  repoId:
+  category:
+  categoryId:
+  mapping: mapping
+  strict: 0
+  reactionsEnabled: 1
+  emitMetadata: 0
+  inputPosition: bottom
+  commentTheme: preferred_color_scheme
+  lang: en
+
+# Need https://github.com/thom4parisot/hexo-algolia
+# Please add the following config in your _config.yml
+# algolia:
+#   applicationID: 'your applicationID'
+#   apiKey: 'your apiKey'
+#   adminApiKey: 'your adminApiKey'
+#   indexName: 'your indexName'
+#   chunkSize: 5000
+algolia_search:
+  enable: false
+  appID: 
+  apiKey: 
+  indexName: 
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: "Search....."
+    hits_empty: "No content found for 「${query}」"
+    hits_stats: "${hits} results found (in ${time} ms)"
+
+preloader:
+  enable: true
+  text: Welcome to the Ninja Corner!...
+  text: Loading...
+
+# https://github.com/CodeByZach/pace
+pace:
+  enable: true
+
+clipboard:
+  success: Copy successful (*^▽^*)
+  fail: Copy failed (ﾟ⊿ﾟ)ﾂ
+  copyright:
+    enable: false
+    count: 50 # The number of characters when the copyright is displayed
+    content: All articles on this blog are licensed under the BY-NC-SA agreement unless otherwise stated. Please indicate the source!
+
+# see https://github.com/H4ckronin/aos.js
+animation:
+  enable: true
+  options:
+    header:
+      title: slide-up
+      subTitle: slide-down
+    home:
+      post: fade-up
+      widget: fade-up
+      sidebar: fade-up
+    article:
+      whole: fade-up
+      date: zoom-in
+      category: zoom-in
+      tag: zoom-in
+      comment: zoom-in
+      reading: zoom-in
+      nav: fade-up
+    archive:
+      whole: fade-up
+      tag: zoom-in
+      category: zoom-in
+      section: fade-up
+      nav: fade-up
+
+dark_mode:
+  enable: false
+
+# see https://github.com/H4ckronin/mouse-firework
+firework:
+  enable: true
+  options:
+    excludeElements: ["a", "button"]
+    particles:
+      - shape: circle
+        move: ["emit"]
+        easing: easeOutExpo
+        colors: ["#ff5252", "#ff7c7c", "#ffafaf", "#ffd0d0"]
+        number: 20
+        duration: [1200, 1800]
+        shapeOptions:
+          radius: [16, 32]
+          alpha: [0.3, 0.5]
+      - shape: circle
+        move: ["diffuse"]
+        easing: easeOutExpo
+        colors: ["#ff0000"]
+        number: 1
+        duration: [1200, 1800]
+        shapeOptions:
+          radius: 20
+          alpha: [0.2, 0.5]
+          lineWidth: 6
+
+# Experimental, may have a lot of bugs, open with caution!
+pjax:
+  enable: false
+
+# Experimental
+# https://github.com/GoogleChromeLabs/quicklink
+quicklink:
+  enable: false
+  # The `requestIdleCallback` timeout, in milliseconds.
+  timeout: 3000
+  # Whether or not the URLs within the options.el container should be treated as high priority.
+  # When true, quicklink will attempt to use the fetch() API if supported (rather than link[rel=prefetch]).
+  priority: true
+  # Determine if a URL should be prefetched.
+  # Only support string
+  ignores: []
+
+# Experimental
+service_worker:
+  enable: false
+
+# Experimental
+live2d:
+  enable: false
+
+reimu_cursor: true
+
+outdate:
+  enable: false
+  daysAgo: 180 # The number of days after which the article is considered outdated
+  message: "This article was last updated on {time}. Please note that the content may have changed."
+
+icon_font: 4552607_tq6stt6tcg
+
+# https://fonts.google.com/
+font:
+  article:
+    - Mulish
+    - Noto Serif SC
+  code:
+    # - Ubuntu Mono
+    # - Source Code Pro
+    # - JetBrains Mono

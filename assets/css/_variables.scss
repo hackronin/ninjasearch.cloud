@@ -1,0 +1,108 @@
+[data-theme="dark"] {
+  &:root {
+  /* General Backgrounds */
+  --color-background: #000000; /* deep charcoal black */
+  --color-code-background: #4a4d52; /* dark slate gray */
+  --color-header-background: #000000b0; /* very dark grey */
+  --color-footer-background: #000000; /* almost black */
+  --color-mobile-nav-background: #242424; /* deep, muted blue-grey */
+  --color-wrap: #242424; /* slightly lighter dark gray */
+
+  /* Hack The Box Inspired Color Palette for Non-Red Colors */
+  /* Parchment White Color Palette */
+  --red-0: #f0f2f4; /* light parchment white with subtle undertones */
+  --red-1: #d9d6d1; /* warm, soft light beige */
+  --red-2: #fff; /* muted, warm tan */
+  --red-3: #5c4e34; /* deep parchment beige */
+  --red-4: #9e8e75; /* medium dark beige */
+  --red-5: #7d6f52; /* dark beige with a hint of brown */
+  --red-6: #5c4e34; /* rich, warm brown */
+
+  /* Greys */
+  --grey-9: #e8e5d8; /* pale, warm grey */
+  --grey-7: #fff; /* dark grey */
+  --grey-5: #4a4a4a; /* balanced charcoal */
+  --grey-3: #6f6f6f; /* medium grey */
+  --grey-1: #b2b2b2; /* light grey */
+
+  /* Accents */
+  --color-default: #FFF; /* soft, warm cream */
+  --color-link: #ffffff; /* muted, professional blue */
+  --color-h2-border: #4a4a4a; /* standard border */
+  --color-h2-after: #f2b5d4; /* subtle pinkish accent */
+  --color-h2-after-shadow: rgba(125, 110, 85, 0.3); /* soft shadow */
+
+  /* Highlights */
+  --highlight-background: #2c2f36; /* dark, neutral highlight */
+  --highlight-current-line: #383c42; /* darker parchment */
+  --highlight-selection: #5b6b72; /* deep sea green */
+  --highlight-comment: #848689; /* light grey-green */
+  --highlight-red: #a94454; /* muted red */
+  --highlight-orange: #e8a95e; /* warm amber */
+  --highlight-yellow: #d7c88f; /* soft yellow gold */
+  --highlight-green: #5f8c6e; /* dark olive green */
+  --highlight-aqua: #4d6d71; /* muted teal */
+  --highlight-blue: #8a9eaa; /* slate blue */
+  --highlight-purple: #7b6c81; /* muted plum */
+  --codeblock-text: #e8e5d8; /* off-white text */
+
+  /* Cursor Styles */
+  --cursor-default: url(../images/cursor/Red-Arrow.png), auto;
+  --cursor-pointer: url(../images/cursor/Red-Link.png), pointer;
+  --cursor-text: url(../images/cursor/Red-Text.png), text;
+  --cursor-help: url(../images/cursor/Red-Help.cur), help;
+  --cursor-working: url(../images/cursor/Red-Working.ani), wait;
+  --cursor-busy: url(../images/cursor/Red-Busy.ani), progress;
+  --cursor-unavailable: url(../images/cursor/Red-Unavailable.png), not-allowed;
+  --cursor-vertical: url(../images/cursor/Red-Vertical.png), ns-resize;
+  --cursor-horizontal: url(../images/cursor/Red-Horizontal.png), ew-resize;
+  --cursor-diagonal-ne-sw: url(../images/cursor/Red-NE_SW.png), nesw-resize;
+  --cursor-diagonal-nw-se: url(../images/cursor/Red-NW_SE.png), nwse-resize;
+  --cursor-cross: url(../images/cursor/Red-Cross.png), crosshair;
+  }
+}
+
+  img {
+    filter: brightness(70%);
+  }
+
+  // 排除 lightbox
+  .pswp__img {
+    opacity: 1;
+    filter: none;
+    animation: none;
+  }
+
+  img.lazyloaded {
+    opacity: 1;
+    animation: blur-darken 0.8s ease-in-out forwards;
+  }
+
+// Fonts
+$font-basic: $basic-families, -apple-system, helvetica, sans-serif;
+$font-code: $code-families, Menlo, Monaco, Consolas, monospace;
+
+$font-size: 14px;
+$line-height: 1.8em;
+$line-height-title: 1.2em;
+
+// Header
+$logo-size: 40px;
+$subtitle-size: 18px;
+$banner-height: 35vh;
+
+// Layout
+$block-margin: 50px;
+$article-padding: 20px;
+$mobile-nav-width: 280px;
+
+// Media queries
+$mq-mobile: "screen and (max-width: 479px)";
+$no-mobile: "screen and (min-width: 480px)";
+$mq-tablet: "screen and (min-width: 480px) and (max-width: 767px)";
+$mq-normal: "screen and (min-width: 768px)";
+$mg-normal: "screen and (max-width: 767px)";
+$mq-large: "screen and (min-width: 960px)";
+$mg-large: "screen and (max-width: 959px)";
+
+$post-radius: 5px;
